@@ -55,7 +55,7 @@
     }
 
     &__partners {
-        &-list{
+        &-list {
             display: flex;
             justify-content: space-between;
             column-gap: 37px;
@@ -70,7 +70,7 @@
                 --heroPartnersWidthOffsetX: 60px;
 
                 column-gap: 10px;
-                width: calc(100vw + var(--heroPartnersWidthOffsetX) * 2);
+                width: calc(100vw + var(--heroPartnersWidthOffsetX) * 1);
                 margin-left: calc((var(--heroPartnersWidthOffsetX) + var(--container-padding-x)) * -1);
             }
         }
