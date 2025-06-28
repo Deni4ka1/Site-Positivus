@@ -1,0 +1,18 @@
+.contact-us {
+    padding: 60px 100px 80px;
+    background-color: var(--color-gray);
+    border-radius: var(--border-radius-large);
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        max-width: 556px;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}
