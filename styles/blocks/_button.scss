@@ -15,9 +15,19 @@
         transition: var(--transition-duration);
 
     }
-    
+
     &--transparent {
         color: var(--color-darck);
         background-color: transparent;
+    }
+
+    &--accent {
+        color: var(--color-darck);
+        background-color: var(--color-accent);
+
+        @include hover {
+            color: var(--color-accent);
+            background-color: var(--color-darck);
+        }
     }
 }
